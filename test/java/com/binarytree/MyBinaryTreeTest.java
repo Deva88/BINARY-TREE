@@ -14,6 +14,7 @@ class MyBinaryTreeTest {
         int size=myBinaryTree.getSize();
         Assertions.assertEquals(3, size);
     }
+
     @Test
     public void givenNumbersWhenAddedToBinaryTreeShowsReturnSizeTrue() {
         MyBinaryTree<Integer> myBinaryTree=new MyBinaryTree<>();
